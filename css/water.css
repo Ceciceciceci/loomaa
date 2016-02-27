@@ -12,11 +12,11 @@ ul{
 }
 
 li{
+    list-style-type: none;
     padding: 5%; 
 }
 
-img-circle{
-    border-color: white;
-    width: 25%;
+img{
+    width: 140px;
     
 }
