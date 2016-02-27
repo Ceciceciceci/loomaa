@@ -1,0 +1,26 @@
+body
+{
+    background:url('../img/ear_background.jpg') no-repeat center center fixed;
+    background-color:burlywood;
+}
+
+.nav
+{
+    z-index:9999;
+}
+.menupic
+{
+    width:200px;
+}
+
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+li
+{
+    padding-top:7%;
+}
