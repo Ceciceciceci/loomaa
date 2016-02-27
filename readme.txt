@@ -23,4 +23,7 @@ rocks.html
 	"roc_video1.mov"
 	backGround: 1920 X 1080
 
+=====
+Current Resources Used:
+https://www.youtube.com/watch?v=ts19O41kwDA
 
