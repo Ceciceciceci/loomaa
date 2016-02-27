@@ -6,17 +6,35 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+.menupic
+{
+    width: 120px;
+	height: 120px;
+    padding-bottom: 10px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 30px rgba(255,255,255, 0.9);
+	-webkit-box-shadow: 0 0 30px rgba(255,255,255, 0.9);
+	-moz-box-shadow: 0 0 30px rgba(255,255,255, 0.9);
+}
+.container-nav{
+    height:100%; 
+}
 
 ul{
-    margin-left:3%;  
+    margin-right:50%;  
 }
 
 li{
     list-style-type: none;
-    padding: 5%; 
+    padding:25%;
 }
 
-img{
-    width: 140px;
-    
+.nav.menuImages img:hover{ 
+    border-radius: 4px solid white;
+}
+.video{
+    padding-top: 50px;
+  
 }
