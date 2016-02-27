@@ -8,19 +8,31 @@ body
 {
     z-index:9999;
 }
+
 .menupic
 {
-    width:200px;
+    width: 140px;
+	height: 140px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, .9);
+	-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .9);
+	-moz-box-shadow: 0 0 30px rgba(0, 0, 0, .9);
 }
 
 ul
 {
     list-style-type:none;
-    margin:0;
+    margin-left:3%;
     padding:0;
 }
 
 li
 {
-    padding-top:7%;
+    padding-top:10%;
+}
+
+.nav, img:hover
+{
 }
