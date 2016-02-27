@@ -4,14 +4,18 @@
 	<title></title>
 	<meta charset="utf-8" />
 	<meta content="width = device-width, initial-scale = 1, maximum-scale = 1, user-scalable = no" name="viewport">
+    
 	<!--**************CSS SHEETS*************-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="//cdn.bootcss.com/animate.css/3.5.1/animate.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
 	<!--**************JS SHEETS**************-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="js/moving.js"></script>
+    
 	<!--***************FONTS*****************-->
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
@@ -19,34 +23,39 @@
 
 <body>
     <!--you write your code here-->
-    <h2 class="col-md-offset-2 col-md-8" id="begin">N A T U R E</h2>
-    <br><br><br><hr>
+    <div class ="row">
+    <h1 class="col-md-offset-2 col-md-8 animated swing" id="begin"><a href=""><b>N A T U R E</b></a></h1>
+    </div>
+    
+    <hr>
+    
     <div class="row col-md-12">
         <!---->
-        <div class="col-md-offset-1 col-md-4">
-            <img src="img/water.png">
-            <h2><a href="water.html"><div class="label label-info">Water</div></a></h2>
+        <div class="col-md-offset-2 col-md-4">
+            <a href="water.html"><img src="img/water.png" class="animated bounceInLeft">
+            <h2><div class="label label-info">Water</div></h2></a>
         </div>
-        <div class="col-md-offset-1 col-md-4">
-            <img src="img/tree.png">
-            <h2><div class="label label-success">Tree</span></div></h2>
-        </div>
-        <div class="col-md-offset-1">
+        <div class="col-md-4">
+            <a href="tree.html"><img src="img/tree.png" class="animated bounceInRight">
+            <h2></h2><div class="label label-success">Tree</div></h2></a>
         </div>
     </div>
 
+    <div class ="col-md-12" style="padding-top: 50px;"></div>
+    
     <div class="row col-md-12">
         <!---->
-        <div class="col-md-offset-1 col-md-4">
-            <img src="img/water.png">
-            <h2><div class="label label-info">Rocks</span></div></h2>
+        <div class="col-md-offset-2 col-md-4">
+            <a href="earthquake.html"><img src="img/rocks.png" class="animated bounceInLeft">
+            <h2><div class="label label-default">Earthquake</div></h2></a>
         </div>
-        <div class="col-md-offset-1 col-md-4">
-            <img src="img/tree.png">
-            <h2><div class="label label-success">Photosynthesis</span></div></h2>
+        <div class="col-md-4">
+            <a href="photosyn.html"><img src="img/flower.png" class ="animated bounceInRight">
+                <h2><div class="label label-warning">Photosynthesis</div></h2></a>
         </div>
-        <div class="col-md-offset-1">
-        </div>
+        <div class="col-md-offset-2"></div>
     </div>
+    <footer>
+    </footer>
 
 </body>
