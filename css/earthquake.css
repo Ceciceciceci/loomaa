@@ -4,9 +4,21 @@ body
     background-color:burlywood;
 }
 
+.middlepart
+{
+    margin-left:15%;
+    margin-top:15%;
+    padding:1px 16px;
+    height:1000px;
+    float:left;
+}
+
 .nav
 {
     z-index:9999;
+    width:15%;
+    height:100%;
+    float:left;
 }
 
 .menupic
@@ -25,12 +37,11 @@ ul
 {
     list-style-type:none;
     margin-left:3%;
-    padding:0;
 }
 
 li
 {
-    padding-top:10%;
+    padding-top:50%;
 }
 
 .nav, img:hover
