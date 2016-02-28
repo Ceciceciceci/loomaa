@@ -7,10 +7,15 @@ body
 .middlepart
 {
     margin-left:15%;
-    margin-top:15%;
+    margin-top:10%;
     padding:1px 16px;
+    width:70%;
     height:1000px;
     float:left;
+}
+
+iframe {
+    border-style:none;
 }
 
 .nav
