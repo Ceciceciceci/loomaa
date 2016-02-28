@@ -29,7 +29,7 @@
 }
 
 #content, p {
-    font-size:35px;
+    font-size:20px;
     color:white;
     float:left;
     text-shadow: 3px 3px 0px #000;
@@ -45,7 +45,7 @@
 
 #nav {
     z-index:9999;
-    width:15%;
+    width:10%;
     height:100%;
     float:left;
 }
@@ -73,7 +73,6 @@ li {
 
 h1 {
     font-size:100px;
-    text-align:center;
     color:white;
 }
 .animated {
@@ -82,11 +81,6 @@ h1 {
     animation-iteration-count:infinite;
 }
 
-.animated {
-  animation-duration: 2.5s;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-}
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
