@@ -26,14 +26,15 @@
     width:70%;
     height:1000px;
     float:left;
+    text-align:center;
 }
 
-#content, p {
-    font-size:20px;
+p {
+    font-size:35px;
     color:white;
     float:left;
-    text-shadow: 3px 3px 0px #000;
-    text-align:center;
+    margin-top:10px;
+    margin-left:10%;
 }
 
 
@@ -67,14 +68,20 @@ li {
 {
     float:left;
     width:900px;
-    height:500px;
+    height:auto;
     overflow:hidden;
+    text-align:center;align-items: 
 }
 
 h1 {
     font-size:100px;
     color:white;
 }
+
+p{
+    font-size: 15px;
+}
+
 .animated {
     animation-duration:2.5s;
     animation-fill-mode:both;
