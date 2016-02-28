@@ -15,7 +15,7 @@ $(document).ready(function(){
                 case('image/jpeg'):
                     event.preventDefault();
                     console.log('You are an image...');
-                    $('#content').html('<img src="' + url + '">')
+                    $('#content').html('<img src="' + url + '" width="85%">')
                     break;
                 default:
                     break;
