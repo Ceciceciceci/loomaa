@@ -4,18 +4,20 @@ $(document).ready(function(){
         console.log("Currently in earthquake.js");
         event.preventDefault();
         var url = $(this).attr('href');
+        console.log("Type: " + $(this).attr('type'));
         switch($(this).attr('type'))
             {
                 case('application/mp4'):
+                    console.log('You are a video...');
                     $('#content').html('<video src="' + url + '" controls></video>');
                     break;
                 case('image/jpeg'):
-                    $('#content').html('<img src="' + url + '"width="40%"')
+                    console.log('You are an image...');
+                    $('#content').html('<img src="' + url + '">')
                     break;
                 default:
                     break;
             }
-        $('#content').load(url);
     });
 });
 
