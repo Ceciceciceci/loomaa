@@ -4,7 +4,7 @@ body
     background-color:burlywood;
 }
 
-.middlepart
+#content
 {
     margin-left:15%;
     margin-top:10%;
@@ -14,11 +14,7 @@ body
     float:left;
 }
 
-iframe {
-    border-style:none;
-}
-
-.nav
+#nav
 {
     z-index:9999;
     width:15%;
