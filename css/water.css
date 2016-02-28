@@ -1,4 +1,4 @@
-body{
+ body{
     background: url('../img/wat_backGround.jpg') no-repeat center center fixed;
     background-color: #1482b5; 
     -webkit-background-size: cover;
@@ -36,5 +36,6 @@ li{
 }
 .video{
     padding-top: 50px;
+    border-radius: 4px solid white; 
   
 }
