@@ -1,7 +1,7 @@
 $(document).ready(function(){
  
     $('.navitems li a').click(function(event){
-        console.log("Currently in earthquake.js");
+        console.log("Currently in moving.js");
         
         var url = $(this).attr('href');
         console.log("Type: " + $(this).attr('type'));

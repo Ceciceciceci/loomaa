@@ -21,6 +21,10 @@ body {
     text-align:center;
 }
 
+#content, video {
+    align:center;
+}
+
 #nav {
     z-index:9999;
     width:15%;
