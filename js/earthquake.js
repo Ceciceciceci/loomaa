@@ -1,6 +1,6 @@
 $(document).ready(function(){
  
-    $('#navitems li a').click(function(event){
+    $('.navitems li a').click(function(event){
         console.log("Currently in earthquake.js");
         event.preventDefault();
         var url = $(this).attr('href');
