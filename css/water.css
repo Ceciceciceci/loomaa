@@ -26,21 +26,22 @@
     width:70%;
     height:1000px;
     float:left;
-    text-align:center;
 }
 
 p {
     font-size:35px;
     color:white;
-    float:left;
     margin-top:10px;
-    margin-left:10%;
+    margin-left:20%;
+    float:left;
+    text-align: center;
+    text-shadow: 3px 3px 0px #040081;
 }
 
 
 #content, video {
     align:left;
-    margin-left:3%;
+    margin-left:5%;
     margin-top:4%;
 }
 
@@ -67,19 +68,16 @@ li {
 .box
 {
     float:left;
-    width:900px;
+    width:1000px;
     height:auto;
     overflow:hidden;
-    text-align:center;align-items: 
+    text-align:center;
 }
 
 h1 {
-    font-size:100px;
+    font-size:120px;
     color:white;
-}
-
-p{
-    font-size: 15px;
+    text-shadow: 3px 3px 0px #040081;
 }
 
 .animated {

@@ -1,6 +1,10 @@
 body {
     background:url('../img/flower_backGround.jpg') no-repeat center center fixed;
     background-color:burlywood;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #content {
@@ -10,6 +14,11 @@ body {
     width:70%;
     height:1000px;
     float:left;
+}
+
+#content, video {
+    width:60%;
+    margin-left:10%;
 }
 
 p {

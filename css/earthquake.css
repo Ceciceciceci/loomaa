@@ -1,6 +1,10 @@
 body {
     background:url('../img/ear_background.jpg') no-repeat center center fixed;
     background-color:burlywood;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #content {
@@ -70,7 +74,7 @@ h1 {
 }
 
 p{
-    font-size: 15px;
+    font-size: 30px;
 }
 
 .animated {
