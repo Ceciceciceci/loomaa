@@ -1,10 +1,10 @@
 body {
-    background:url('../img/ear_background.jpg') no-repeat center center fixed;
+    background:url('../img/flower_backGround.jpg') no-repeat center center fixed;
     background-color:burlywood;
 }
 
 #content {
-    margin-left:15%;
+    margin-left:10%;
     margin-top:10%;
     padding:1px 16px;
     width:70%;
@@ -12,17 +12,15 @@ body {
     float:left;
 }
 
-#content, p {
+p {
     font-size:35px;
     color:white;
     float:left;
-    margin-top:10%;
-    text-shadow: 3px 3px 0px #000;
+    margin-top:10px;
 }
-
 #nav {
     z-index:9999;
-    width:250px;
+    width:15%;
     height:100%;
     float:left;
 }
@@ -60,7 +58,6 @@ li {
 
 h1 {
     font-size:100px;
-    text-align:center;
     color: #f2efef;
 }
 

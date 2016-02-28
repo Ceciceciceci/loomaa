@@ -4,7 +4,7 @@ body {
 }
 
 #content {
-    margin-left:15%;
+    margin-left:10%;
     margin-top:10%;
     padding:1px 16px;
     width:70%;
@@ -12,12 +12,11 @@ body {
     float:left;
 }
 
-#content, p {
+p {
     font-size:35px;
     color:white;
     float:left;
-    margin-top:10%;
-    text-shadow: 3px 3px 0px #000;
+    margin-top:10px;
 }
 
 #nav {
@@ -60,7 +59,7 @@ li {
 
 h1 {
     font-size:100px;
-    color: #f2efef;
+    color: #eceed7;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -70,6 +69,5 @@ p{
 
 .animated {
     animation-duration:2.5s;
-/*    animation-fill-mode:both;*/
     animation-iteration-count:infinite;
 }
