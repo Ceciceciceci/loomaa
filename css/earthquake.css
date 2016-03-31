@@ -29,35 +29,13 @@ body {
     align:center;
 }
 
-#nav {
-    z-index:9999;
-    width:10%;
-    height:100%;
-    float:left;
-}
-
-.menupic {
-    width: 140px;
-	height: 140px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	box-shadow: 0 0 30px rgba(0, 0, 0, .9);
-	-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .9);
-	-moz-box-shadow: 0 0 30px rgba(0, 0, 0, .9);
-}
-
 ul {
     list-style-type:none;
     margin-left:3%;
 }
 
 li {
-    padding-top:50%;
-}
-
-#nav, img:hover {
-    opacity:0.8;
+    padding-top:45%;
 }
 
 .box
